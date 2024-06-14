@@ -1,14 +1,14 @@
 function App() {
   return (
-    <div className="bg-primary w-full h-screen  flex items-center justify-center ">
+    <main className="bg-primary w-full h-screen  flex items-center justify-center ">
       <div className="bg-secondary shadow-lg rounded-3xl flex max-md:flex-col w-736 h-512">
         <div
           className="bg-gradient-1 rounded-3xl"
           style={{ width: "368px", height: "512px" }}
         >
-          <p className="text-2xl text-result flex justify-center pt-8">
+          <h1 className="text-2xl text-result flex justify-center pt-8">
             Your Result
-          </p>
+          </h1>
 
           <div className="flex justify-center pt-8">
             <div
@@ -36,7 +36,7 @@ function App() {
             Your performance exceed 65% of the people conducting the test here!
           </p>
         </div>
-        <div style={{ width: "368px", height: "512px" }}>
+        <aside style={{ width: "368px", height: "512px" }}>
           <p className="text-dark text-2xl ml-10 mt-9">Summary</p>
 
           <div
@@ -197,9 +197,9 @@ function App() {
           >
             <span className="text-lg">Continue</span>
           </button>
-        </div>
+        </aside>
       </div>
-    </div>
+    </main>
   );
 }
 
