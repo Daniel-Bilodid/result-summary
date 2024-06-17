@@ -23,6 +23,9 @@ module.exports = {
         "gradient-2":
           "linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%)",
       },
+      fontFamily: {
+        sans: ["Hanken Grotesk", "sans-serif"],
+      },
     },
   },
 

@@ -6,7 +6,7 @@ function App() {
           className="bg-gradient-1 rounded-3xl"
           style={{ width: "368px", height: "512px" }}
         >
-          <p className="text-2xl text-result flex justify-center pt-8">
+          <p className="text-2xl text-result flex justify-center pt-8 font-sans">
             Your Result
           </p>
 
@@ -16,18 +16,20 @@ function App() {
               style={{ width: "200px", height: "200px" }}
             >
               <div className="flex flex-col">
-                <p className="text-7xl text-white">76</p>
-                <p className="text-result text-lg flex justify-center">
+                <p className="text-7xl text-white font-sans font-bold">76</p>
+                <p className="text-result text-lg flex justify-center opacity-52">
                   of 100
                 </p>
               </div>
             </div>
           </div>
 
-          <p className="flex justify-center text-3xl text-white pt-8">Great</p>
+          <p className="flex justify-center text-3xl text-white pt-8 font-sans font-bold">
+            Great
+          </p>
 
           <p
-            className="text-lg text-result text-center flex ml-14 mt-3"
+            className="text-lg text-result text-center flex ml-14 mt-3 font-sans"
             style={{
               width: "260px",
               height: "69px",
@@ -37,7 +39,9 @@ function App() {
           </p>
         </div>
         <div style={{ width: "368px", height: "512px" }}>
-          <p className="text-dark text-2xl ml-10 mt-9">Summary</p>
+          <p className="text-dark text-2xl ml-10 mt-9 font-sans font-bold">
+            Summary
+          </p>
 
           <div
             className="flex justify-between ml-9 mt-7 bg-pink rounded-xl"
@@ -61,12 +65,12 @@ function App() {
                 />
               </svg>
 
-              <p className="mt-4 ml-2 text-red">Reaction</p>
+              <p className="mt-4 ml-2 text-red font-sans">Reaction</p>
             </div>
 
-            <div className="mt-4 mr-3 text-dark font-bold">
+            <div className="mt-4 mr-3 text-dark font-bold font-sans">
               80{" "}
-              <span className="opacity-50">
+              <span className="opacity-50 font-sans">
                 <span className="font-normal">/</span> 100
               </span>
             </div>
@@ -108,12 +112,12 @@ function App() {
                 />
               </svg>
 
-              <p className="mt-4 ml-2 text-yellow">Memory</p>
+              <p className="mt-4 ml-2 text-yellow font-sans">Memory</p>
             </div>
 
-            <div className="mt-4 mr-3 text-dark font-bold">
+            <div className="mt-4 mr-3 text-dark font-bold font-sans">
               92{" "}
-              <span className="opacity-50">
+              <span className="opacity-50 font-sans">
                 <span className="font-normal">/</span> 100
               </span>
             </div>
@@ -141,13 +145,13 @@ function App() {
                 />
               </svg>
 
-              <p className="mt-4 ml-2 text-green">Verbal</p>
+              <p className="mt-4 ml-2 text-green font-sans">Verbal</p>
             </div>
 
-            <div className="mt-4 mr-3 text-dark font-bold">
+            <div className="mt-4 mr-3 text-dark font-bold font-sans">
               61{" "}
               <span className="opacity-50">
-                <span className="font-normal">/</span> 100
+                <span className="font-normal font-sans">/</span> 100
               </span>
             </div>
           </div>
@@ -181,13 +185,13 @@ function App() {
                 />
               </svg>
 
-              <p className="mt-4 ml-2 text-blue">Visual</p>
+              <p className="mt-4 ml-2 text-blue font-sans">Visual</p>
             </div>
 
-            <div className="mt-4 mr-3 text-dark font-bold">
+            <div className="mt-4 mr-3 text-dark font-bold font-sans">
               73{" "}
               <span className="opacity-50">
-                <span className="font-normal">/</span> 100
+                <span className="font-normal font-sans">/</span> 100
               </span>
             </div>
           </div>
@@ -195,7 +199,7 @@ function App() {
             className="bg-dark rounded-3xl mt-10 ml-9 text-white hover:bg-gradient-1"
             style={{ width: "288px", height: "56px" }}
           >
-            <span className="text-lg">Continue</span>
+            <span className="text-lg font-sans font-bold">Continue</span>
           </button>
         </div>
       </div>
