@@ -75,7 +75,6 @@ function App() {
               </span>
             </div>
           </div>
-
           <div
             className="flex justify-between ml-9 mt-4 bg-lightYellow rounded-xl"
             style={{ width: "288px", height: "56px" }}
@@ -114,7 +113,6 @@ function App() {
 
               <p className="mt-4 ml-2 text-yellow font-sans">Memory</p>
             </div>
-
             <div className="mt-4 mr-3 text-dark font-bold font-sans">
               92{" "}
               <span className="opacity-50 font-sans">
